@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0091C7F1"
+            app:srcCompat="@mipmap/logoo" />
+
+        <Button
+            android:id="@+id/btn_klik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0091C7F1"
+            android:text="Klik Disini... iya Disini"
+            android:textColor="#FF0606" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Cara Cari Makan yang Mudah :)"
+            android:textColor="#091D0A"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="203dp"
+        android:layout_height="187dp"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@mipmap/ay" />
+</RelativeLayout>
