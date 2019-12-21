@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Makan5Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_back5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="297dp"
             app:srcCompat="@drawable/daging" />
 
         <TextView
@@ -29,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Siomay Jakarta Kang Ujang"
+            android:textColor="#FD070707"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +43,35 @@
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : dari teksturnya yang lembut tapi masih agak chewy, apalagi kalo di goreng jadi luarnya ada crispy2nya, ikannya juga kerasa, bumbu kacangnya juga enakk, pokoknya perpaduannya nikmat." />
+            android:text="Deskripsi : dari teksturnya yang lembut tapi masih agak chewy, apalagi kalo di goreng jadi luarnya ada crispy2nya, ikannya juga kerasa, bumbu kacangnya juga enakk, pokoknya perpaduannya nikmat."
+            android:textColor="#FD030303" />
 
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Jl. D.I Panjaitan, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta" />
+            android:text="Alamat : Jl. D.I Panjaitan, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+            android:textColor="#020202" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga : Rp.3.000/siomay" />
+            android:text="Harga : Rp.3.000/siomay"
+            android:textColor="#070707" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 10.00-22.00./ habis" />
+            android:text="Jam Buka : 10.00-22.00./ habis"
+            android:textColor="#030303" />
 
         <Button
             android:id="@+id/map5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

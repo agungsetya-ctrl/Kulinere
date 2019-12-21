@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Makan4Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_back4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="285dp"
             app:srcCompat="@drawable/kuning" />
 
         <TextView
@@ -29,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Warung Yellow Nasi Kuning"
+            android:textColor="#050505"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +43,35 @@
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : Warung yang satu ini ruame poll deh kalo udah jam 7-9an, yaiyalah soalnya emang disini murah meriah banget sarapannya dan udah ada di aplikasi ojek online! Sepuluhriburupiah udah bisa dapet seporsi nasi kuning pake ayam lohh" />
+            android:text="Deskripsi : Warung yang satu ini ruame poll deh kalo udah jam 7-9an, yaiyalah soalnya emang disini murah meriah banget sarapannya dan udah ada di aplikasi ojek online! Sepuluhriburupiah udah bisa dapet seporsi nasi kuning pake ayam lohh"
+            android:textColor="#030303" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Warung Yellow Nasi Kuning dan Lontong Opor, Jl. Selokan Mataram, Santren, Caturtunggal, Sleman, DIY (Deket jembatan gejayan-selokan mataram arah seturan), " />
+            android:text="Alamat : Warung Yellow Nasi Kuning dan Lontong Opor, Jl. Selokan Mataram, Santren, Caturtunggal, Sleman, DIY (Deket jembatan gejayan-selokan mataram arah seturan), "
+            android:textColor="#050404" />
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga : mulai Rp. 8.000" />
+            android:text="Harga : mulai Rp. 8.000"
+            android:textColor="#030303" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 07.00-12.00 /habis" />
+            android:text="Jam Buka : 07.00-12.00 /habis"
+            android:textColor="#030303" />
 
         <Button
             android:id="@+id/map4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

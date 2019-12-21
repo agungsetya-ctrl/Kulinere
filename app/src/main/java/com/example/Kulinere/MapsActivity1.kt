@@ -1,4 +1,4 @@
-package com.example.Kulinere
+package com.example.kulinere
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

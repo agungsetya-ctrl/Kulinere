@@ -1,4 +1,4 @@
-package com.example.Kulinere
+package com.example.kulinere
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
 import android.widget.ListView
+import com.example.Kulinere.*
 import kotlinx.android.synthetic.main.activity_makan.*
 
 class MakanActivity : AppCompatActivity() {
@@ -13,8 +14,7 @@ class MakanActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.requestFeature(Window.FEATURE_NO_TITLE)
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
         setContentView(R.layout.activity_makan)
         listView = findViewById(R.id.listViewmkn)
         var list = mutableListOf<Modelmkn>()
@@ -29,7 +29,7 @@ class MakanActivity : AppCompatActivity() {
         list.add(Modelmkn("Warung Yellow Nasi Kuning", "Sepuluhriburupiah udah bisa dapet seporsi nasi kuning pake ayam lohh ", R.drawable.kuning))
         list.add(Modelmkn("Siomay Jakarta Kang Ujang", "dari teksturnya yang lembut tapi masih agak chewy, apalagi kalo di goreng", R.drawable.daging))
 
-listView.adapter = ListAdaptermkn(this, R.layout.rawmakan,list)
+        listView.adapter = ListAdaptermkn(this, R.layout.rawmakan,list)
 
         listView.setOnItemClickListener { parent, view, position, id ->
             if(position==0) {

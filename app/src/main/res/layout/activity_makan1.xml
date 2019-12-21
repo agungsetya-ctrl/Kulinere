@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Makan1Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_back1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
+
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="296dp"
+            android:layout_width="464dp"
+            android:layout_height="330dp"
             app:srcCompat="@drawable/ayamb" />
 
         <TextView
@@ -29,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ayam bakar Genther pak Yanto"
+            android:textColor="#090808"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +44,35 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : Ayam Bakar dengan siraman saus racikan rempah rempah menciptakan rasa yang otentik dan lezat." />
+            android:text="Deskripsi : Ayam Bakar dengan siraman saus racikan rempah rempah menciptakan rasa yang otentik dan lezat."
+            android:textColor="#FC050505" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Ayam Bakar Genther Pak Yanto, jl. wardhani, Kotabaru, belakang SMP 5, Jogja" />
+            android:text="Alamat : Ayam Bakar Genther Pak Yanto, jl. wardhani, Kotabaru, belakang SMP 5, Jogja"
+            android:textColor="#FA070707" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga : Rp. 14.000/porsi." />
+            android:text="Harga : Rp. 14.000/porsi."
+            android:textColor="#FC070707" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 17.00-20.00/habis" />
+            android:text="Jam Buka : 17.00-20.00/habis"
+            android:textColor="#FD090909" />
 
         <Button
             android:id="@+id/map1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

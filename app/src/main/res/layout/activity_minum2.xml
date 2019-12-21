@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Minum2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/back2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
 
         <ImageView
@@ -29,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cendol Pathi Onggok Pak Alex"
+            android:textColor="#070707"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +43,35 @@
             android:id="@+id/textView33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : Rasanya segar, tidak terlalu manis. Sangat cocok dinikmati saat cuaca panas." />
+            android:text="Deskripsi : Rasanya segar, tidak terlalu manis. Sangat cocok dinikmati saat cuaca panas."
+            android:textColor="#090808" />
 
         <TextView
             android:id="@+id/textView34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Jl. Kebun Raya No.42, Rejowinangun, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta" />
+            android:text="Alamat : Jl. Kebun Raya No.42, Rejowinangun, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+            android:textColor="#050505" />
 
         <TextView
             android:id="@+id/textView35"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga : Rp.6.000" />
+            android:text="Harga : Rp.6.000"
+            android:textColor="#030303" />
 
         <TextView
             android:id="@+id/textView36"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 09.30 – 17.00 / habis" />
+            android:text="Jam Buka : 09.30 – 17.00 / habis"
+            android:textColor="#050505" />
 
         <Button
             android:id="@+id/peta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

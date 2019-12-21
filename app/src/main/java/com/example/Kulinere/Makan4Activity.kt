@@ -1,8 +1,9 @@
-package com.example.Kulinere
+package com.example.kulinere
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+
 import kotlinx.android.synthetic.main.activity_makan4.*
 
 class Makan4Activity : AppCompatActivity() {

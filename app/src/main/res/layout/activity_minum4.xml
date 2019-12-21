@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Minum4Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/back4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
 
         <ImageView
@@ -29,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Es Teler Duren “Cendolku”"
+            android:textColor="#050505"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +43,35 @@
             android:id="@+id/textView43"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : salah satu susu kelapa dingin yang sering ditemui di Bandung, Jawa Barat. Walaupun es doger berasal dari Cirebon, es doger juga bisa ditemui di kota-kota besar di Indonesia, seperti Jakarta, Malang, dan Surabaya. Selain rasanya yang enak, es doger juga enak diminum di tempat-tempat yang panas" />
+            android:text="Deskripsi : salah satu susu kelapa dingin yang sering ditemui di Bandung, Jawa Barat. Walaupun es doger berasal dari Cirebon, es doger juga bisa ditemui di kota-kota besar di Indonesia, seperti Jakarta, Malang, dan Surabaya. Selain rasanya yang enak, es doger juga enak diminum di tempat-tempat yang panas"
+            android:textColor="#030303" />
 
         <TextView
             android:id="@+id/textView44"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Jl. Sorogenen No.11, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta" />
+            android:text="Alamat : Jl. Sorogenen No.11, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+            android:textColor="#FC030303" />
 
         <TextView
             android:id="@+id/textView45"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga : Rp.10.000" />
+            android:text="Harga : Rp.10.000"
+            android:textColor="#020202" />
 
         <TextView
             android:id="@+id/textView46"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 09.00 – 16.00 /habis" />
+            android:text="Jam Buka : 09.00 – 16.00 /habis"
+            android:textColor="#090808" />
 
         <Button
             android:id="@+id/peta4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

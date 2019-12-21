@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.Kulinere">
-
+    package="com.example.kulinere">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -16,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".daftar"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -30,34 +32,77 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.Kulinere.MapsActivity5"
-            android:label="@string/title_activity_maps5"></activity>
+            android:name=".MapsActivitym5"
+            android:label="@string/title_activity_maps_activitym5" />
         <activity
-            android:name="com.example.Kulinere.MapsActivity4"
+            android:name=".MapsActivitym4"
+            android:label="@string/title_activity_maps_activitym4" />
+        <activity
+            android:name=".MapsActivitym3"
+            android:label="@string/title_activity_maps_activitym3" />
+        <activity
+            android:name=".MapsActivitym2"
+            android:label="@string/title_activity_maps_activitym2" />
+        <activity
+            android:name=".MapsActivitym1"
+            android:label="@string/title_activity_maps_activitym1" />
+        <activity
+            android:name=".MapsActivity5"
+            android:label="Map" />
+        <activity
+            android:name=".MapsActivity4"
             android:label="@string/title_activity_maps4" />
         <activity
-            android:name="com.example.Kulinere.MapsActivity3"
+            android:name=".MapsActivity3"
             android:label="@string/title_activity_maps3" />
         <activity
-            android:name="com.example.Kulinere.MapsActivity2"
+            android:name=".MapsActivity2"
             android:label="@string/title_activity_maps2" />
-        <activity android:name="com.example.Kulinere.Minum5Activity" />
-        <activity android:name="com.example.Kulinere.Minum4Activity" />
-        <activity android:name="com.example.Kulinere.Minum3Activity" />
-        <activity android:name="com.example.Kulinere.Minum2Activity" />
-        <activity android:name="com.example.Kulinere.Minum1Activity" />
         <activity
-            android:name="com.example.Kulinere.MapsActivity1"
+            android:name=".Minum5Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Minum4Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Minum3Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Minum2Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Minum1Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MapsActivity1"
             android:label="@string/title_activity_maps1" />
-        <activity android:name="com.example.Kulinere.Makan5Activity" />
-        <activity android:name="com.example.Kulinere.Makan4Activity" />
-        <activity android:name="com.example.Kulinere.Makan3Activity" />
-        <activity android:name="com.example.Kulinere.Makan2Activity" />
-        <activity android:name="com.example.Kulinere.Makan1Activity" />
-        <activity android:name="com.example.Kulinere.MinumActivity" />
-        <activity android:name="com.example.Kulinere.MakanActivity" />
-        <activity android:name="com.example.Kulinere.HomeActivity" />
-        <activity android:name="com.example.Kulinere.MainActivity">
+        <activity
+            android:name=".Makan5Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Makan4Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Makan3Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Makan2Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Makan1Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MinumActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MakanActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

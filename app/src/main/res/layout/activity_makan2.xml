@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/isi"
     tools:context=".Makan2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="#12444141"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_back2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="BACK" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="281dp"
             app:srcCompat="@drawable/sate" />
 
         <TextView
@@ -29,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sate Padang Ajo Buyuang"
+            android:textColor="#070707"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,30 +43,35 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi : Sate khas Sumatera Barat dengan citarasa Kuah kental beraroma rempah dan gurihnya irisan daging dalam sate Padang menggoda selera Bumbu sate Padang terdiri dari beraneka rempah pilihan." />
+            android:text="Deskripsi : Sate khas Sumatera Barat dengan citarasa Kuah kental beraroma rempah dan gurihnya irisan daging dalam sate Padang menggoda selera Bumbu sate Padang terdiri dari beraneka rempah pilihan."
+            android:textColor="#030303" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat : Sate Padang Ajo Buyuang, Jl. Bugisan No.37, Patangpuluhan, Wirobrajan, Yogyakarta." />
+            android:text="Alamat : Sate Padang Ajo Buyuang, Jl. Bugisan No.37, Patangpuluhan, Wirobrajan, Yogyakarta."
+            android:textColor="#020202" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Harga 	: Rp.17.000/porsi" />
+            android:text="Harga 	: Rp.17.000/porsi"
+            android:textColor="#070707" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jam Buka : 18.00-22.00/habis." />
+            android:text="Jam Buka : 18.00-22.00/habis."
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/map2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFEB3B"
             android:text="MAPS" />
     </LinearLayout>
 </RelativeLayout>

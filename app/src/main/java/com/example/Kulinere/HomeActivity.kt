@@ -1,4 +1,4 @@
-package com.example.Kulinere
+package com.example.kulinere
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,12 +11,11 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.requestFeature(Window.FEATURE_NO_TITLE)
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
         setContentView(R.layout.activity_home)
 
         btn_mkn.setOnClickListener {
-            intent = Intent (this,MakanActivity::class.java)
+            intent = Intent (this, MakanActivity::class.java)
             startActivity(intent)
         }
 

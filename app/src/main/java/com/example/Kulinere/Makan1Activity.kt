@@ -1,4 +1,4 @@
-package com.example.Kulinere
+package com.example.kulinere
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
