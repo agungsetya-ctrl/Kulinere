@@ -3,10 +3,9 @@ package com.example.kulinere
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
 import android.widget.ListView
 import com.example.Kulinere.*
+import com.example.Kulinere.adapter.ListAdaptermnm
 import kotlinx.android.synthetic.main.activity_minum.*
 
 class MinumActivity : AppCompatActivity() {
@@ -29,7 +28,11 @@ class MinumActivity : AppCompatActivity() {
         list.add(Modelmnm("Es Teler Duren “Cendolku”", "salah satu susu kelapa dingin yang sering ditemui di Bandung, Jawa Barat", R.drawable.alpu))
         list.add(Modelmnm("Es Doger Krapyak","Rasanya enak Seger. Meskipun tempatnya agak sempit karena di pinggir jalan.", R.drawable.dog))
 
-        listView.adapter = ListAdaptermnm(this, R.layout.rawminum,list)
+        listView.adapter = ListAdaptermnm(
+            this,
+            R.layout.rawminum,
+            list
+        )
         listView.setOnItemClickListener { parent, view, position, id ->
             if(position==0) {
                 intent = Intent(this, Minum1Activity::class.java)

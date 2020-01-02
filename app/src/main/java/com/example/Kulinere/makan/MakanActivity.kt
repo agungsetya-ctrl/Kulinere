@@ -3,10 +3,9 @@ package com.example.kulinere
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
 import android.widget.ListView
 import com.example.Kulinere.*
+import com.example.Kulinere.adapter.ListAdaptermkn
 import kotlinx.android.synthetic.main.activity_makan.*
 
 class MakanActivity : AppCompatActivity() {
@@ -29,7 +28,11 @@ class MakanActivity : AppCompatActivity() {
         list.add(Modelmkn("Warung Yellow Nasi Kuning", "Sepuluhriburupiah udah bisa dapet seporsi nasi kuning pake ayam lohh ", R.drawable.kuning))
         list.add(Modelmkn("Siomay Jakarta Kang Ujang", "dari teksturnya yang lembut tapi masih agak chewy, apalagi kalo di goreng", R.drawable.daging))
 
-        listView.adapter = ListAdaptermkn(this, R.layout.rawmakan,list)
+        listView.adapter = ListAdaptermkn(
+            this,
+            R.layout.rawmakan,
+            list
+        )
 
         listView.setOnItemClickListener { parent, view, position, id ->
             if(position==0) {

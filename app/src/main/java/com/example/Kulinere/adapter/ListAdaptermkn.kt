@@ -1,4 +1,4 @@
-package com.example.Kulinere
+package com.example.Kulinere.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.Kulinere.Modelmkn
 import com.example.kulinere.R
 
 class ListAdaptermkn (var mCtx: Context, var resource:Int, var items:List<Modelmkn>)
