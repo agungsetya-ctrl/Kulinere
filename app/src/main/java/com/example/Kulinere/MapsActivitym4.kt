@@ -38,6 +38,6 @@ class MapsActivitym4 : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         val sydney4 = LatLng(-7.8247594,110.3796184)
         mMap.addMarker(MarkerOptions().position(sydney4).title("Es Teler Duren “Cendolku”"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney4))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney4, 17.0f))
     }
 }

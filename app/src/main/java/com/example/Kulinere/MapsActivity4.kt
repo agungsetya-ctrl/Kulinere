@@ -38,6 +38,6 @@ class MapsActivity4 : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         val resto4 = LatLng(-7.7860625,110.3458008)
         mMap.addMarker(MarkerOptions().position(resto4).title("Warung Yellow Nasi Kuning"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(resto4))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(resto4, 17.0f))
     }
 }

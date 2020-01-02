@@ -38,6 +38,6 @@ class MapsActivitym2 : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         val sydney2 = LatLng(-7.810416,110.3957463)
         mMap.addMarker(MarkerOptions().position(sydney2).title("Es Cendol Pathi Onggok Pak Alex"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney2))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney2, 17.0f))
     }
 }
